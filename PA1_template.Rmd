@@ -33,6 +33,8 @@ hist(StepDay, main = "Total Number of Steps Each Day", xlab = "Number of Steps",
 ```{r, echo = TRUE}
 MeanDay <- mean(StepDay, na.rm = TRUE)
 MedianDay <- median(StepDay, na.rm = TRUE)
+MeanDay
+MedianDay
 ```
 
 # Time series plot of the average number of steps taken
